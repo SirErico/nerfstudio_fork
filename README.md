@@ -1,6 +1,9 @@
+This is a fork of the original [nerfstudio](https://github.com/nerfstudio-project/nerfstudio) created for own purposes.
+
+
 <p align="center">
     <!-- community badges -->
-    <a href="https://discord.gg/uMbNqcraFc"><img src="https://dcbadge.vercel.app/api/server/uMbNqcraFc?style=plastic"/></a>
+    <a href="https://discord.gg/uMbNqcraFc"><img src="https://dcbadge.limes.pink/api/server/https://discord.gg/uMbNqcraFc"/></a>
     <!-- doc badges -->
     <a href='https://docs.nerf.studio/'>
         <img src='https://readthedocs.com/projects/plenoptix-nerfstudio/badge/?version=latest' alt='Documentation Status' /></a>

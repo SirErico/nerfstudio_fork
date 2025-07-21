@@ -7,8 +7,6 @@ DATASETS=(
     "/workspace/datasets/ycb_dataset/power_drill"
     "/workspace/datasets/ycb_dataset/tennis_ball"
     "/workspace/datasets/ycb_dataset/rubiks_cube"
-    # Add more dataset paths here, e.g.
-    # "/workspace/datasets/other_dataset/"
 )
 
 METHOD="nerfacto"
@@ -23,4 +21,4 @@ for DATASET in "${DATASETS[@]}"; do
 done
 
 # export to point cloud
-# ns-export pointcloud --load-config /workspace/datasets/nerfstudio/outputs/tuna_fish_can/nerfacto/2025-07-17_110631/config.yml --output-dir exports/pcd/ --num-points 1000000 --remove-outliers True --normal-method open3d --save-world-frame False 
+# ns-export pointcloud --load-config /workspace/datasets/nerfstudio/outputs/.../config.yml --output-dir exports/pcd/ --num-points 1000000 --remove-outliers True --normal-method open3d --obb-center 0.0 0.0 0.0 --obb-rotation  0.0 0.0 0.0 --obb-scale 0.8 0.8 1.3
