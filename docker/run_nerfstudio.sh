@@ -22,12 +22,11 @@ docker run --gpus all \
   	   --volume="$XAUTH:$XAUTH" \
 	   -v /shared/datasets:/workspace/datasets \
 	   -v /home/erykv/nerf_comparsions:/workspace/nerf_comparsions \
-           -v /home/erykv/.cache/:/home/user/.cache/ \
+	   -v /home/erykv/.cache/:/home/user/.cache/ \
  	   --env="NVIDIA_VISIBLE_DEVICES=all" \
 	   --env="NVIDIA_DRIVER_CAPABILITIES=all" \
 	   --privileged \
 	   --network=host \
-	   -p 7007:7007 \
            -it \
            --shm-size=64gb \
            nerf_colmap311 \
