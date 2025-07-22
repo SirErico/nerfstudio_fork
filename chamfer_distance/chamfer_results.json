@@ -1,0 +1,13 @@
+{
+  "chamfer_distance": 1.0187639645548927,
+  "chamfer_1_to_2": 0.020376130194923632,
+  "chamfer_2_to_1": 2.017151798914862,
+  "max_distance_1_to_2": 0.04895153264583434,
+  "max_distance_2_to_1": 2.8669778344841794,
+  "rmse_1_to_2": 0.022459853562188787,
+  "rmse_2_to_1": 2.1011600171052653,
+  "gt_points": 100000,
+  "gen_points": 100000,
+  "gt_path": "/workspace/datasets/ycb_ply_gt/035_power_drill_google_512k/035_power_drill/google_512k/nontextured.ply",
+  "gen_path": "/workspace/datasets/ycb_model_ply/power_drill/point_cloud.ply"
+}
